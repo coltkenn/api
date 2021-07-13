@@ -5,7 +5,7 @@ const routes = express.Router({
 });
 
 routes.get('/', (req, res) => {
-    res.status(200).json({});
+    res.status(200).json({ data: 'hello!' });
 });
 
 module.exports = {
